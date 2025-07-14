@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcfaf8] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4ece7] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1c130d]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#1c130d] text-lg font-bold leading-tight tracking-[-0.015em]">PuzzleCo</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1c130d] text-sm font-medium leading-normal" href="#">Shop</a>
+              <a class="text-[#1c130d] text-sm font-medium leading-normal" href="#">About</a>
+              <a class="text-[#1c130d] text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#f4ece7] text-[#1c130d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#1c130d]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#f4ece7] text-[#1c130d] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#1c130d]" data-icon="ShoppingBag" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWe6aXxQys0AsAgekB50ZVUHU3vblE5Vsg_GyuZLgD4_gEqdgRVax1wu1TooYX6fAO2L6VI2i_0G5dSYeXycncDvz6eLdzvzo5LC7UcpZnFhNRSF40p0DizxWQY2zdKLpOq9Lc-8FKZdXpSJWcgh38ftfAj_obt2-9FfLraVSuPqbyP5WdKxUp-t8CKdB9y00sH5QUxB4wQBckwXcvyZn551_LPONwx-HY59QdKFXYnFc6lsyrRt7CLI8nDcRfL_-n3GGVCr2MDg");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      PuzzleCo
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Discover the joy of puzzling with our unique and captivating designs.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#f37a24] text-[#1c130d] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Shop Now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#1c130d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Puzzles</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#fcfaf8] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXTsNIz3HbrPw9VL0tCzRROs6hW6dGZZYpIKUDcdi64CGTVZ9rK3ZEt7UF6S_bqPCUdlYfTtMjICkomXmCOiTMD_1bUE7UVu6-BfrMD0jE-HCEFWtKAvTk2Al6Vy66RPr_SQ2i5fEWblEQqf5GzEvUvO_0HBQpXYiBSRNTCbY2cx_R1QTEPt0db2tn58iXfD2bZe7eaUNYysO1xc5U4r3j75CRY4NY2Cv1R6kUEL-DGeRBb2P5BPUvAx7iACtaOz8dHdYHZlgF5w");'
+                  ></div>
+                  <div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+                    <div>
+                      <p class="text-[#1c130d] text-base font-medium leading-normal">Forest Friends</p>
+                      <p class="text-[#9c6c49] text-sm font-normal leading-normal">A 1000-piece puzzle featuring a vibrant forest scene with various animals.</p>
+                    </div>
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#f4ece7] text-[#1c130d] text-sm font-bold leading-normal tracking-[0.015em]"
+                    >
+                      <span class="truncate">Buy Now</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#fcfaf8] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDvqdroEeiIBCwPe95b2vts6QddujdwwyzArzcRIF48Wi0NxO0sQYxU87nPBhaSP503BIdu2hdJ4Kz186RK01aSDIhOFrf6Z8FiQ1yXuNkNUqjJbUmhcqZYDmn4VSEC01ICe24O4FLDfFOGV6_bVoIle5OMuOi7Gz0g0_wfOiSfPey0hQaUqArTbI8cbUXb5OF53wcBRXA8WajS6y31uZG1gsvrMxTvxVFK5K0iTJHRyjcN1CsiYfvRtXTBwwjfBd2_6l1_n7IBvw");'
+                  ></div>
+                  <div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+                    <div>
+                      <p class="text-[#1c130d] text-base font-medium leading-normal">City Lights</p>
+                      <p class="text-[#9c6c49] text-sm font-normal leading-normal">A 500-piece puzzle depicting a beautiful cityscape at night.</p>
+                    </div>
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#f4ece7] text-[#1c130d] text-sm font-bold leading-normal tracking-[0.015em]"
+                    >
+                      <span class="truncate">Buy Now</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#fcfaf8] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAskU-UIUUzwnv2foY_svb-qKtam9cPTO997mE3RV5k27OQObVe_3G5PRePfuiHOUx9LIVk1gkCyUOl7h0BcNOsqPzxBsoJ4P_CieMYxpCuEUeyRrkvgu-rJC3ieXUzR05W4MYAbfrWcAHfk5ZCJOG_SOdiZa9_rgCG9__ifcZkLJsNXmkKFtvm0xsvxPKde8GO-fN5RURNn-b4t9Y21Ex0y7p7Gzjt1dRJFaCAjwkU8Lp2YbltLPHS5GS1M_ztIOwjHnHpci7G4A");'
+                  ></div>
+                  <div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+                    <div>
+                      <p class="text-[#1c130d] text-base font-medium leading-normal">Coastal Escape</p>
+                      <p class="text-[#9c6c49] text-sm font-normal leading-normal">A 750-piece puzzle showcasing a serene beach scene with palm trees.</p>
+                    </div>
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#f4ece7] text-[#1c130d] text-sm font-bold leading-normal tracking-[0.015em]"
+                    >
+                      <span class="truncate">Buy Now</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                <div class="flex flex-col gap-2 text-center">
+                  <h1
+                    class="text-[#1c130d] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                  >
+                    Join the PuzzleCo Community
+                  </h1>
+                  <p class="text-[#1c130d] text-base font-normal leading-normal max-w-[720px">Stay updated on new releases, exclusive offers, and puzzle tips.</p>
+                </div>
+                <div class="flex flex-1 justify-center">
+                  <div class="flex justify-center">
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#f37a24] text-[#1c130d] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
+                    >
+                      <span class="truncate">Sign Up</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#9c6c49] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#9c6c49] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+                <a class="text-[#9c6c49] text-base font-normal leading-normal min-w-40" href="#">Shipping &amp; Returns</a>
+              </div>
+              <p class="text-[#9c6c49] text-base font-normal leading-normal">@2024 PuzzleCo. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
