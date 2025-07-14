@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { DiscountSection } from '../components';
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -297,6 +298,16 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            {/* 🔥 할인 카운트다운 섹션 */}
+            <DiscountSection 
+              discountPercentage={30}
+              originalPrice={29900}
+              discountedPrice={21900}
+              timerHours={24}
+              className="relative z-10"
+            />
+
             <div className="flex flex-col gap-6 sm:gap-10 px-2 sm:px-4 pt-16 sm:pt-32 pb-6 sm:pb-10 @container">
               <div className="flex flex-col gap-3 sm:gap-4">
                 <h1 className="text-[#1c130d] tracking-light text-2xl sm:text-[32px] lg:text-4xl font-bold leading-tight max-w-[720px] animate-pulse" style={{textShadow: '0 0 15px rgba(28, 19, 13, 0.6), 0 0 30px rgba(28, 19, 13, 0.4), 0 0 45px rgba(28, 19, 13, 0.2)'}}>
